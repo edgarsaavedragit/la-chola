@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+
+    <title>La Chola - Sangucheria Cajacha</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+  </head>
+  <body>
+    <header class="h-la-chola">
+      <div class="container">
+        <div class="shopping-cart" id="shopping-cart">
+          <img
+            src="./images/icono_shoping_cart.svg"
+            alt="icono shopping cart"
+          />
+          <span>0</span>
+        </div>
+        <a href="./index.html">
+          <img src="./images/logo.svg" alt="Logo" class="logo" />
+        </a>
+        <ul class="menu">
+          <li><a href="./index.html" class="active">Home</a></li>
+          <li><a href="./pages/productos.html">Menu</a></li>
+          <li><a href="#">Promociones</a></li>
+          <li><a href="#">Sigue tu pedido</a></li>
+          <li><a href="./pages/contactenos.html">Contactenos</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="home-page">
+        <div class="banner">
+          <img
+            src="./images/hamburguesa.png"
+            alt="hamburguesa"
+            class="hamburguesa"
+          />
+          <img src="./images/patron.svg" alt="patron" class="patron" />
+        </div>
+        <div class="container">
+          <div class="columns">
+            <h2><strong>Promociones</strong> solo por hoy</h2>
+            <a class="btn">Ver mas</a>
+          </div>
+
+          <div class="promos">
+            <a href="./images/promo-1.jpg">
+              <img
+                src="./images/promo-1.jpg"
+                alt="promoción: Especial de navidad"
+                data-fancybox="promos"
+              />
+            </a>
+            <a href="./images/promo-2.jpg">
+              <img
+                src="./images/promo-2.jpg"
+                alt="promoción: Chola almuerzos"
+                data-fancybox="promos"
+              />
+            </a>
+            <a href="./images/promo-3.jpg">
+              <img
+                src="./images/promo-3.jpg"
+                alt="promoción: Chilcanos afrutados"
+                data-fancybox="promos"
+              />
+            </a>
+          </div>
+          <h2>los <strong>cholalover</strong> lo dicen</h2>
+          <div class="testimonio-list">
+            <div class="testimonios-card">
+              <img src="./images/comentarios-6.jpg" alt="testimonio 0" />
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been.
+              </p>
+            </div>
+            <div class="testimonios-card">
+              <img src="./images/comentarios-1.jpg" alt="testimonio 1" />
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been.
+              </p>
+            </div>
+            <div class="testimonios-card">
+              <img src="./images/comentarios-4.jpg" alt="testimonio 2" />
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been.
+              </p>
+            </div>
+            <div class="testimonios-card">
+              <img src="./images/comentarios-2.jpg" alt="testimonio 3" />
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <img src="./images/patron.svg" alt="patron" class="patron" />
+    </main>
+    <footer>
+      <div class="container">
+        <div>
+          <h3>Enlaces de Interes</h3>
+          <ul>
+            <li>
+              <a href="./pages/quienes-somos.html">Quienes somos</a>
+            </li>
+            <li>
+              <a href="#">Trabaja con nosotros</a>
+            </li>
+            <li>
+              <a href="#">Libro de reclamaciones</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3>Nuestros Locales</h3>
+          <ul>
+            <li>
+              <a href="#">Lima</a>
+            </li>
+            <li>
+              <a href="#">Trujillo</a>
+            </li>
+            <li>
+              <a href="#">Chiclayo</a>
+            </li>
+          </ul>
+        </div>
+        <div class="redes">
+          <h3>Siguenos en:</h3>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/lachola2016" target="_blank">
+                <img src="./images/icono_facebook.svg" alt="icono facebook" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/lachola.sangucheria/"
+                target="_blank"
+              >
+                <img src="./images/icono_instagram.svg" alt="icono instagram" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.tiktok.com/@lachola.sangucheria"
+                target="_blank"
+              >
+                <img src="./images/icono_tiktok.svg" alt="icono tiktok" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <img src="./images/logo_footer.svg" alt="Logo" class="logo" />
+      </div>
+    </footer>
+    <script src="./fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="./fancybox/fancybox.css" />
+    <script>
+      Fancybox.bind("[data-fancybox]");
+    </script>
+  </body>
+</html>
